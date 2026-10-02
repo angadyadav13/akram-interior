@@ -1,0 +1,1 @@
+export default function WhatsApp(){const n=process.env.NEXT_PUBLIC_WHATSAPP_NUMBER||'919876543210';return <a className="whatsapp" href={`https://wa.me/${n}`} target="_blank" rel="noreferrer">WhatsApp</a>}
